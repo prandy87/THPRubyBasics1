@@ -1,4 +1,13 @@
-#gen Stairs
+
+
+#This short game is part of the THP Beginner Ruby Program exos. 
+#Get to the top!
+#Need to implement manuel dice throw.
+
+############################################################################
+
+
+#Generate Stairs
 
 
 
@@ -27,7 +36,7 @@ end
 perform 
 
 
-
+#Auto game
 
 def launch_dice
     @dice_face = (rand(1 .. 6).to_i)
